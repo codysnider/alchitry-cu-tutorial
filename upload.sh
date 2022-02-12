@@ -1,1 +1,3 @@
-iceprog rot.bin
+#!/bin/bash
+
+iceprog main.bin

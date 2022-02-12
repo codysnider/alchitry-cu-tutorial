@@ -1,4 +1,0 @@
-# For the iCE40HX-8K Breakout Board
-
-set_io D1 K11
-set_io clk P7

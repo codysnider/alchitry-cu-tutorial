@@ -1,5 +1,4 @@
 .idea*
-
-rot.asc
-rot.bin
-rot.blif
+main.asc
+main.bin
+main.blif
