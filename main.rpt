@@ -8,113 +8,113 @@ Report for critical path:
 -------------------------
 
         lc40_31_1_1 (LogicCell40) [clk] -> lcout: 0.640 ns
-     0.640 ns net_121030 (LED1_SB_CARRY_I1_CO[1])
-        t27 (LocalMux) I -> O: 0.330 ns
+     0.640 ns net_121030 (LED8_SB_CARRY_I1_CO[1])
+        t29 (LocalMux) I -> O: 0.330 ns
         inmux_32_1_129226_129252 (InMux) I -> O: 0.260 ns
         t6 (CascadeMux) I -> O: 0.000 ns
         lc40_32_1_0 (LogicCell40) in2 -> carryout: 0.231 ns
      1.461 ns t2
         lc40_32_1_1 (LogicCell40) carryin -> carryout: 0.126 ns
-     1.587 ns net_129255 (LED1_SB_CARRY_I1_CO[2])
+     1.587 ns net_129255 (LED8_SB_CARRY_I1_CO[2])
         lc40_32_1_2 (LogicCell40) carryin -> carryout: 0.126 ns
-     1.713 ns net_129261 (LED1_SB_CARRY_I1_CO[3])
+     1.713 ns net_129261 (LED8_SB_CARRY_I1_CO[3])
         lc40_32_1_3 (LogicCell40) carryin -> carryout: 0.126 ns
-     1.839 ns net_129267 (LED1_SB_CARRY_I1_CO[4])
+     1.839 ns net_129267 (LED8_SB_CARRY_I1_CO[4])
         lc40_32_1_4 (LogicCell40) carryin -> carryout: 0.126 ns
-     1.966 ns net_129273 (LED1_SB_CARRY_I1_CO[5])
+     1.966 ns net_129273 (LED8_SB_CARRY_I1_CO[5])
         lc40_32_1_5 (LogicCell40) carryin -> carryout: 0.126 ns
-     2.092 ns net_129279 (LED1_SB_CARRY_I1_CO[6])
+     2.092 ns net_129279 (LED8_SB_CARRY_I1_CO[6])
         lc40_32_1_6 (LogicCell40) carryin -> carryout: 0.126 ns
-     2.218 ns net_129285 (LED1_SB_CARRY_I1_CO[7])
+     2.218 ns net_129285 (LED8_SB_CARRY_I1_CO[7])
         lc40_32_1_7 (LogicCell40) carryin -> carryout: 0.126 ns
-     2.344 ns net_129291 (LED1_SB_CARRY_I1_CO[8])
+     2.344 ns net_129291 (LED8_SB_CARRY_I1_CO[8])
         t3 (ICE_CARRY_IN_MUX) carryinitin -> carryinitout: 0.196 ns
         lc40_32_2_0 (LogicCell40) carryin -> carryout: 0.126 ns
-     2.667 ns net_129416 (LED1_SB_CARRY_I1_CO[9])
+     2.667 ns net_129416 (LED8_SB_CARRY_I1_CO[9])
         lc40_32_2_1 (LogicCell40) carryin -> carryout: 0.126 ns
-     2.793 ns net_129422 (LED1_SB_CARRY_I1_CO[10])
+     2.793 ns net_129422 (LED8_SB_CARRY_I1_CO[10])
         lc40_32_2_2 (LogicCell40) carryin -> carryout: 0.126 ns
-     2.919 ns net_129428 (LED1_SB_CARRY_I1_CO[11])
+     2.919 ns net_129428 (LED8_SB_CARRY_I1_CO[11])
         lc40_32_2_3 (LogicCell40) carryin -> carryout: 0.126 ns
-     3.046 ns net_129434 (LED1_SB_CARRY_I1_CO[12])
+     3.046 ns net_129434 (LED8_SB_CARRY_I1_CO[12])
         lc40_32_2_4 (LogicCell40) carryin -> carryout: 0.126 ns
-     3.172 ns net_129440 (LED1_SB_CARRY_I1_CO[13])
+     3.172 ns net_129440 (LED8_SB_CARRY_I1_CO[13])
         lc40_32_2_5 (LogicCell40) carryin -> carryout: 0.126 ns
-     3.298 ns net_129446 (LED1_SB_CARRY_I1_CO[14])
+     3.298 ns net_129446 (LED8_SB_CARRY_I1_CO[14])
         lc40_32_2_6 (LogicCell40) carryin -> carryout: 0.126 ns
-     3.424 ns net_129452 (LED1_SB_CARRY_I1_CO[15])
+     3.424 ns net_129452 (LED8_SB_CARRY_I1_CO[15])
         lc40_32_2_7 (LogicCell40) carryin -> carryout: 0.126 ns
-     3.551 ns net_129458 (LED1_SB_CARRY_I1_CO[16])
+     3.551 ns net_129458 (LED8_SB_CARRY_I1_CO[16])
         t4 (ICE_CARRY_IN_MUX) carryinitin -> carryinitout: 0.196 ns
         lc40_32_3_0 (LogicCell40) carryin -> carryout: 0.126 ns
-     3.873 ns net_129571 (LED1_SB_CARRY_I1_CO[17])
+     3.873 ns net_129571 (LED8_SB_CARRY_I1_CO[17])
         lc40_32_3_1 (LogicCell40) carryin -> carryout: 0.126 ns
-     3.999 ns net_129577 (LED1_SB_CARRY_I1_CO[18])
+     3.999 ns net_129577 (LED8_SB_CARRY_I1_CO[18])
         lc40_32_3_2 (LogicCell40) carryin -> carryout: 0.126 ns
-     4.126 ns net_129583 (LED1_SB_CARRY_I1_CO[19])
+     4.126 ns net_129583 (LED8_SB_CARRY_I1_CO[19])
         lc40_32_3_3 (LogicCell40) carryin -> carryout: 0.126 ns
-     4.252 ns net_129589 (LED1_SB_CARRY_I1_CO[20])
+     4.252 ns net_129589 (LED8_SB_CARRY_I1_CO[20])
         lc40_32_3_4 (LogicCell40) carryin -> carryout: 0.126 ns
-     4.378 ns net_129595 (LED1_SB_CARRY_I1_CO[21])
+     4.378 ns net_129595 (LED8_SB_CARRY_I1_CO[21])
         lc40_32_3_5 (LogicCell40) carryin -> carryout: 0.126 ns
-     4.504 ns net_129601 (LED1_SB_CARRY_I1_CO[22])
+     4.504 ns net_129601 (LED8_SB_CARRY_I1_CO[22])
         lc40_32_3_6 (LogicCell40) carryin -> carryout: 0.126 ns
-     4.631 ns net_129607 (LED1_SB_CARRY_I1_CO[23])
+     4.631 ns net_129607 (LED8_SB_CARRY_I1_CO[23])
         lc40_32_3_7 (LogicCell40) carryin -> carryout: 0.126 ns
-     4.757 ns net_129613 (LED1_SB_CARRY_I1_CO[24])
+     4.757 ns net_129613 (LED8_SB_CARRY_I1_CO[24])
         t5 (ICE_CARRY_IN_MUX) carryinitin -> carryinitout: 0.196 ns
         lc40_32_4_0 (LogicCell40) carryin -> carryout: 0.126 ns
-     5.080 ns net_129726 (LED1_SB_CARRY_I1_CO[25])
+     5.080 ns net_129726 (LED8_SB_CARRY_I1_CO[25])
         lc40_32_4_1 (LogicCell40) carryin -> carryout: 0.126 ns
-     5.206 ns net_129732 (LED1_SB_CARRY_I1_CO[26])
+     5.206 ns net_129732 (LED8_SB_CARRY_I1_CO[26])
         lc40_32_4_2 (LogicCell40) carryin -> carryout: 0.126 ns
-     5.332 ns net_129738 (LED1_SB_CARRY_I1_CO[27])
+     5.332 ns net_129738 (LED8_SB_CARRY_I1_CO[27])
         lc40_32_4_3 (LogicCell40) carryin -> carryout: 0.126 ns
-     5.458 ns net_129744 (LED1_SB_CARRY_I1_CO[28])
+     5.458 ns net_129744 (LED8_SB_CARRY_I1_CO[28])
         lc40_32_4_4 (LogicCell40) carryin -> carryout: 0.126 ns
-     5.584 ns net_129750 (LED1_SB_CARRY_I1_CO[29])
+     5.584 ns net_129750 (LED8_SB_CARRY_I1_CO[29])
         lc40_32_4_5 (LogicCell40) carryin -> carryout: 0.126 ns
-     5.711 ns net_129756 (LED1_SB_CARRY_I1_CO[30])
+     5.711 ns net_129756 (LED8_SB_CARRY_I1_CO[30])
         lc40_32_4_6 (LogicCell40) carryin -> carryout: 0.126 ns
-     5.837 ns net_129762 (LED1_SB_CARRY_I1_CO[31])
+     5.837 ns net_129762 (LED8_SB_CARRY_I1_CO[31])
         inmux_32_4_129762_129772 (InMux) I -> O: 0.260 ns
-     6.096 ns net_129772 (LED1_SB_CARRY_I1_CO[31])
+     6.096 ns net_129772 (LED8_SB_CARRY_I1_CO[31])
         lc40_32_4_7 (LogicCell40) in3 [setup]: 0.217 ns
-     6.314 ns net_125523 (LED8$SB_IO_OUT)
+     6.314 ns net_125523 (LED1$SB_IO_OUT)
 
 Resolvable net names on path:
-     0.640 ns ..  1.229 ns LED1_SB_CARRY_I1_CO[1]
-     1.587 ns ..  1.587 ns LED1_SB_CARRY_I1_CO[2]
-     1.713 ns ..  1.713 ns LED1_SB_CARRY_I1_CO[3]
-     1.839 ns ..  1.839 ns LED1_SB_CARRY_I1_CO[4]
-     1.966 ns ..  1.966 ns LED1_SB_CARRY_I1_CO[5]
-     2.092 ns ..  2.092 ns LED1_SB_CARRY_I1_CO[6]
-     2.218 ns ..  2.218 ns LED1_SB_CARRY_I1_CO[7]
-     2.344 ns ..  2.541 ns LED1_SB_CARRY_I1_CO[8]
-     2.667 ns ..  2.667 ns LED1_SB_CARRY_I1_CO[9]
-     2.793 ns ..  2.793 ns LED1_SB_CARRY_I1_CO[10]
-     2.919 ns ..  2.919 ns LED1_SB_CARRY_I1_CO[11]
-     3.046 ns ..  3.046 ns LED1_SB_CARRY_I1_CO[12]
-     3.172 ns ..  3.172 ns LED1_SB_CARRY_I1_CO[13]
-     3.298 ns ..  3.298 ns LED1_SB_CARRY_I1_CO[14]
-     3.424 ns ..  3.424 ns LED1_SB_CARRY_I1_CO[15]
-     3.551 ns ..  3.747 ns LED1_SB_CARRY_I1_CO[16]
-     3.873 ns ..  3.873 ns LED1_SB_CARRY_I1_CO[17]
-     3.999 ns ..  3.999 ns LED1_SB_CARRY_I1_CO[18]
-     4.126 ns ..  4.126 ns LED1_SB_CARRY_I1_CO[19]
-     4.252 ns ..  4.252 ns LED1_SB_CARRY_I1_CO[20]
-     4.378 ns ..  4.378 ns LED1_SB_CARRY_I1_CO[21]
-     4.504 ns ..  4.504 ns LED1_SB_CARRY_I1_CO[22]
-     4.631 ns ..  4.631 ns LED1_SB_CARRY_I1_CO[23]
-     4.757 ns ..  4.953 ns LED1_SB_CARRY_I1_CO[24]
-     5.080 ns ..  5.080 ns LED1_SB_CARRY_I1_CO[25]
-     5.206 ns ..  5.206 ns LED1_SB_CARRY_I1_CO[26]
-     5.332 ns ..  5.332 ns LED1_SB_CARRY_I1_CO[27]
-     5.458 ns ..  5.458 ns LED1_SB_CARRY_I1_CO[28]
-     5.584 ns ..  5.584 ns LED1_SB_CARRY_I1_CO[29]
-     5.711 ns ..  5.711 ns LED1_SB_CARRY_I1_CO[30]
-     5.837 ns ..  6.096 ns LED1_SB_CARRY_I1_CO[31]
-                  lcout -> LED8$SB_IO_OUT
+     0.640 ns ..  1.229 ns LED8_SB_CARRY_I1_CO[1]
+     1.587 ns ..  1.587 ns LED8_SB_CARRY_I1_CO[2]
+     1.713 ns ..  1.713 ns LED8_SB_CARRY_I1_CO[3]
+     1.839 ns ..  1.839 ns LED8_SB_CARRY_I1_CO[4]
+     1.966 ns ..  1.966 ns LED8_SB_CARRY_I1_CO[5]
+     2.092 ns ..  2.092 ns LED8_SB_CARRY_I1_CO[6]
+     2.218 ns ..  2.218 ns LED8_SB_CARRY_I1_CO[7]
+     2.344 ns ..  2.541 ns LED8_SB_CARRY_I1_CO[8]
+     2.667 ns ..  2.667 ns LED8_SB_CARRY_I1_CO[9]
+     2.793 ns ..  2.793 ns LED8_SB_CARRY_I1_CO[10]
+     2.919 ns ..  2.919 ns LED8_SB_CARRY_I1_CO[11]
+     3.046 ns ..  3.046 ns LED8_SB_CARRY_I1_CO[12]
+     3.172 ns ..  3.172 ns LED8_SB_CARRY_I1_CO[13]
+     3.298 ns ..  3.298 ns LED8_SB_CARRY_I1_CO[14]
+     3.424 ns ..  3.424 ns LED8_SB_CARRY_I1_CO[15]
+     3.551 ns ..  3.747 ns LED8_SB_CARRY_I1_CO[16]
+     3.873 ns ..  3.873 ns LED8_SB_CARRY_I1_CO[17]
+     3.999 ns ..  3.999 ns LED8_SB_CARRY_I1_CO[18]
+     4.126 ns ..  4.126 ns LED8_SB_CARRY_I1_CO[19]
+     4.252 ns ..  4.252 ns LED8_SB_CARRY_I1_CO[20]
+     4.378 ns ..  4.378 ns LED8_SB_CARRY_I1_CO[21]
+     4.504 ns ..  4.504 ns LED8_SB_CARRY_I1_CO[22]
+     4.631 ns ..  4.631 ns LED8_SB_CARRY_I1_CO[23]
+     4.757 ns ..  4.953 ns LED8_SB_CARRY_I1_CO[24]
+     5.080 ns ..  5.080 ns LED8_SB_CARRY_I1_CO[25]
+     5.206 ns ..  5.206 ns LED8_SB_CARRY_I1_CO[26]
+     5.332 ns ..  5.332 ns LED8_SB_CARRY_I1_CO[27]
+     5.458 ns ..  5.458 ns LED8_SB_CARRY_I1_CO[28]
+     5.584 ns ..  5.584 ns LED8_SB_CARRY_I1_CO[29]
+     5.711 ns ..  5.711 ns LED8_SB_CARRY_I1_CO[30]
+     5.837 ns ..  6.096 ns LED8_SB_CARRY_I1_CO[31]
+                  lcout -> LED1$SB_IO_OUT
 
 Total number of logic levels: 32
 Total path delay: 6.31 ns (158.38 MHz)

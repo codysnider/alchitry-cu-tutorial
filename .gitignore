@@ -1,4 +1,5 @@
 .idea*
-main.asc
-main.bin
-main.blif
+*.asc
+*.bin
+*.blif
+*.json
