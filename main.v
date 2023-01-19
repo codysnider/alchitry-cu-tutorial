@@ -1,27 +1,23 @@
 module top(
     input CLK,
-    output LED1,
-    output LED2,
-    output LED3,
-    output LED4,
-    output LED5,
-    output LED6,
-    output LED7,
-    output LED8
+    input RST,
+    output [7:0] LED,
+    output [23:0] IO_LED
 );
 
-    localparam COUNTER_WIDTH = 32;
+    localparam COUNTER_WIDTH = 32 + 8;
     reg [COUNTER_WIDTH-1:0] counter;
 
-    always @(posedge CLK)
-    counter <= counter + 1;
+    always @(posedge CLK) begin
+        if (RST == 1'b0) begin
+            counter <= 0;
+        end else begin
+            counter <= counter + 1;
+        end
+    end
 
-    assign LED1 = counter[COUNTER_WIDTH-1];
-    assign LED2 = counter[COUNTER_WIDTH-2];
-    assign LED3 = counter[COUNTER_WIDTH-3];
-    assign LED4 = counter[COUNTER_WIDTH-4];
-    assign LED5 = counter[COUNTER_WIDTH-5];
-    assign LED6 = counter[COUNTER_WIDTH-6];
-    assign LED7 = counter[COUNTER_WIDTH-7];
-    assign LED8 = counter[COUNTER_WIDTH-8];
+    assign LED = counter[COUNTER_WIDTH-1:COUNTER_WIDTH-8];
+    assign IO_LED = counter[COUNTER_WIDTH-9:COUNTER_WIDTH-(8 + 24)];
+
+
 endmodule
