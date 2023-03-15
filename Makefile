@@ -22,7 +22,7 @@ main.bin: main.asc
 	icepack $< $@
 
 gui: main.json
-	nextpnr-ice40 --gui --${FPGA_TYPE} --package ${FPGA_PKG} --json $ --pcf ${PCF} --asc main.asc
+	nextpnr-ice40 --gui --${FPGA_TYPE} --package ${FPGA_PKG} --json $< --pcf ${PCF} --asc main.asc
 
 upload: main.bin
 	iceprog $<
