@@ -32,4 +32,9 @@ all: main
 clean:
 	rm -f *.json *.asc *.rpt *.bin *yosys.log
 
+cb: clean main 
+
+cbu: clean main upload
+
+
 .PHONY: all clean
